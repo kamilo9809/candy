@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#7E434343" /> <!-- Color de fondo negro opaco -->
+            <corners android:radius="20dp" /> <!-- Ajusta el radio para las esquinas redondeadas -->
+        </shape>
+    </item>
+    <item android:left="130dp" android:top="130dp" android:right="130dp" android:bottom="130dp">
+        <bitmap android:src="@drawable/blurnube" android:filter="true" />
+    </item>
+</layer-list>
